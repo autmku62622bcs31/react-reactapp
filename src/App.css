@@ -1,0 +1,58 @@
+.header{
+    background-color: white;
+    height: 60px;
+    width: 1590px;
+}
+.header a{
+    color: black;
+    margin-left: 50px;
+}
+.footer{
+    background-color: white;
+    height: 60px;
+    width: 1590px;
+}
+.footer a{
+    color: black;
+    margin-left: 50px;
+}
+.card-body{
+    width: 18rem;
+    margin: 10px;
+    background-color: aqua;
+    border: 2px solid white;
+}
+
+/*Idcard*/
+.idcard{
+    background-color: blue;
+    height: 550px;
+    width: 350px;
+    margin: 100px 600px;
+}
+.topimg{
+    background-color: white;
+    height: 160px;
+    border-radius: 0px 0px 70px 70px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+img{
+    height: 60px;
+    position: relative;
+    top: 80px;
+    border-radius: 25px;
+}
+.content h2{
+    margin-left: 70px;
+    font-size: 30px;
+}
+.content p{
+    position: relative;
+    bottom: 20px;
+    margin-left: 90px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
