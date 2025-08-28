@@ -8,14 +8,16 @@ import "./App.css"
 // import Counting from "./components/Counting";
 // import Useeffect from "./components/Useeffect"
 
-import OnlineStatusTracker from './tasks/OnlineStatusTracker';
+// import OnlineStatusTracker from './tasks/OnlineStatusTracker';
+
+import TheMealsDb from "./components/TheMealsDb";
 
 function App(){
   return(
     <div>
 
-      <OnlineStatusTracker />
-
+      {/* <OnlineStatusTracker /> */}
+      <TheMealsDb/>
       {/* <Useeffect/> */}
       {/* <Product/> */}
       {/* <Idcard logo={react}/> */}

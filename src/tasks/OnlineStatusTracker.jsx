@@ -9,7 +9,7 @@ function OnlineStatusTracker() {
   }, []); 
 
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+    <div style={{ padding: '20px', fontFamily:"cursive" }}>
       <h2>Internet Connection Status</h2>
       <p style={{ color: isOnline ? 'green' : 'red' }}>
         {isOnline ? 'You are online' : 'You are offline'}
