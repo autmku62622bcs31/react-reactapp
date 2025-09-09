@@ -1,4 +1,4 @@
-.buy{
+/* .buy{
     border: transparent;
     height: 500px;
     width: 500px;
@@ -27,4 +27,16 @@ button{
     border: 1px solid grey;
     height: 30px;
     width: 200px;
+} */
+.pk{
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+}
+.pk1{
+    color: red;
+}
+.pk2{
+    color: green;
 }
