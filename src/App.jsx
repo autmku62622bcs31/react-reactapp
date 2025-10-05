@@ -2,7 +2,9 @@ import "./App.css"
 // import Myback from "./components/Myback";
 import Cardform from "./components/Cardform";
 // import Header from "./components/Header";
-// import {Routes, Route} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
+import TheMealsDb from "./components/TheMealsDb";
+// import Myback from "./components/Myback";
 // import Home from "./components/Home"
 // import About from "./components/About"
 
@@ -17,11 +19,15 @@ import Cardform from "./components/Cardform";
 // import OnlineStatusTracker from './tasks/OnlineStatusTracker';
 
 // import TheMealsDb from "./components/TheMealsDb";
-import Form from "./components/Form"
+// import Form from "./components/Form"
 function App(){
   return(
     <div>
-      <Cardform/>
+      <Routes>
+        <Route path="/" element={<Cardform/>} />
+        <Route path="/themealsdb" element={<TheMealsDb/>} />
+      </Routes>
+      {/* <Cardform/> */}
       {/* <OnlineStatusTracker /> */}
       {/* <TheMealsDb/> */}
       {/* <Myback/> */}

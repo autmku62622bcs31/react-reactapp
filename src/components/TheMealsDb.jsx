@@ -9,7 +9,7 @@ function TheMealsDb() {
     //So when we get new data from backend, we call setFoodData(newData) and React will re-render the UI.
 
     const getMeals = async () => { //async → Means this function can use await (for waiting until data comes).
-        const Response = await axios.get("http://localhost:2000/api/view");//axios.get("http://localhost:2000/api/view") → Calls your backend API to get the data.
+        const Response = await axios.get("http://localhost:5000/api/view");//axios.get("http://localhost:2000/api/view") → Calls your backend API to get the data.
         console.log(Response.data.data);//Response → The reply from backend (contains all the data).
         setFoodData(Response.data.data);//Response.data.data → This is where the actual list of food/users is stored.
         //setFoodData(Response.data.data) → Saves the data in foodData state.
@@ -27,9 +27,21 @@ function TheMealsDb() {
                     //results.phone
                     //results.email
                 <div className="uk" key={index}> 
-                    <h1>{results.name}</h1>
-                    <h1>{results.phone}</h1>
-                    <h1>{results.email}</h1>
+                    {/* <h1 className="name">{results.name}</h1>
+                    <h1 className="ph">{results.phone}</h1>
+                    <h1 className="ema">{results.email}</h1> */}
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                        </tr>
+                        <tr>
+                            <td className="name">{results.name}</td>
+                            <td className="ph">{results.phone}</td>
+                            <td className="em">{results.email}</td>
+                        </tr>
+                    </table>
                 </div>
                   )
             })}

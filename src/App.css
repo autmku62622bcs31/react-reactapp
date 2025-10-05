@@ -19,7 +19,7 @@ p{
     justify-content: center;
 }
 button{
-    width: 40px;
+    width: 40px;        
     height: 30px;
     margin-top: 17px;
 }
@@ -41,9 +41,27 @@ button{
     color: green;
 }
 .uk{
-    border: 1px solid;
-    width: 400px;
+    background-color: aqua;
+    border: 1px solid rgb(59, 19, 166);
+    width: 900px;
+    margin-left: 280px;
 }
 img{
     margin-left: 130px;
+}
+table {
+    margin-left: 50px;
+    display: inline;
+}
+th{
+    padding-left: 30px;
+}
+.ph{
+    padding-left: 100px;
+}
+.name{
+    padding-left: 40px;
+}
+.em{
+    padding-left: 100px;
 }
