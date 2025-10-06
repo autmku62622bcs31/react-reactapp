@@ -19,14 +19,14 @@ function TheMealsDb() {
     },[])  //[] → Means run only once (not again and again).
 
     return(
-        <div>
+        <div className="uk" >
             {foodData.map((results,index)=>{  //.map() is used to loop through an array in React. 
             //For each results (which is one item from your backend), we return some JSX (HTML).
                   return (//Inside the loop, you display:
                     //results.name
                     //results.phone
                     //results.email
-                <div className="uk" key={index}> 
+                <div key={index}> 
                     {/* <h1 className="name">{results.name}</h1>
                     <h1 className="ph">{results.phone}</h1>
                     <h1 className="ema">{results.email}</h1> */}

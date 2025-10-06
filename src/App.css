@@ -28,6 +28,9 @@ button{
     height: 30px;
     width: 200px;
 } */
+ div{
+    background-color: rgb(100, 109, 190) ;
+ }
 .pk{
     background-color: black;
     height: 200px;
@@ -41,27 +44,40 @@ button{
     color: green;
 }
 .uk{
-    background-color: aqua;
-    border: 1px solid rgb(59, 19, 166);
     width: 900px;
     margin-left: 280px;
+    color: black;
 }
 img{
     margin-left: 130px;
 }
-table {
-    margin-left: 50px;
-    display: inline;
+.TheMealsDb{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-th{
+table {
+    /* margin-left: 50px;
+    display: inline;
+    border-collapse: separate; */
+    border: 1px solid black;
+    width: 800px;
+}
+/* th{
     padding-left: 30px;
+    font-size: 18px;
 }
 .ph{
     padding-left: 100px;
+    font-size: large;
 }
 .name{
     padding-left: 40px;
+    font-size: large;
 }
 .em{
     padding-left: 100px;
-}
+    font-size: large;
+} */
