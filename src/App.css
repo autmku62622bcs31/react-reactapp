@@ -28,7 +28,7 @@ button{
     height: 30px;
     width: 200px;
 } */
- div{
+ /* div{
     background-color: rgb(100, 109, 190) ;
  }
 .pk{
@@ -59,12 +59,12 @@ img{
     align-items: center;
 }
 table {
-    /* margin-left: 50px;
+    margin-left: 50px;
     display: inline;
-    border-collapse: separate; */
+    border-collapse: separate;
     border: 1px solid black;
     width: 800px;
-}
+} */
 /* th{
     padding-left: 30px;
     font-size: 18px;

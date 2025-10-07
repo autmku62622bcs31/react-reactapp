@@ -83,6 +83,7 @@ function Form() {
         name: "",
         phone: "",
         email: "",
+        password: ""
       });
 
       // navigate after 1 second
@@ -98,13 +99,13 @@ function Form() {
   return (
     <div
       className="d-flex justify-content-center align-items-center"
-      style={{ minHeight: "100vh", backgroundColor: "#f3f4f6" }}
+      style={{ minHeight: "100vh", backgroundColor: "red" }}
     >
       <form
         onSubmit={handelSubmit}
         className="p-4 rounded-4"
         style={{
-          background: "#fff",
+          background: "yellow",
           width: "400px",
           boxShadow: "0 4px 15px rgba(0,0,0,0.2)",
         }}
@@ -129,7 +130,7 @@ function Form() {
           className="form-control mb-3"
           onChange={handelChange}
           value={formdatas.name}
-        />
+        /> <br /><br />
 
         <label>Phone</label>
         <input
@@ -139,7 +140,7 @@ function Form() {
           className="form-control mb-3"
           onChange={handelChange}
           value={formdatas.phone}
-        />
+        /> <br /> <br />
 
         <label>Email</label>
         <input
@@ -149,9 +150,19 @@ function Form() {
           className="form-control mb-3"
           onChange={handelChange}
           value={formdatas.email}
-        />
+        /> <br /><br />
 
-        <button className="btn btn-success w-100" type="submit">
+        <label>Password</label>
+        <input
+          name="password"
+          type="password"
+          placeholder="Enter password"
+          className="form-control mb-3"
+          onChange={handelChange}
+          value={formdatas.password}
+        /> <br /><br />
+
+        <button className="btn btn-danger w-100" type="submit">
           Submit
         </button>
       </form>
